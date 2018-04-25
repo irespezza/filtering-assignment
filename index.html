@@ -1,36 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
 
-    <head>
-        <meta charset="utf-8">
-        <!-- set the character set -->
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <!-- first step to a responsive site -->
-        <title>Causes of Death</title>
+  <head>
+    <meta charset="utf-8">
+    <!-- set the character set -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- first step to a responsive site -->
+    <title>Causes of Death</title>
 
-        <!-- FONT AWESOME -->
-        <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" />
+    <!-- FONT AWESOME -->
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" />
 
-        <!-- Your styles should be called here -->
-        <link href="style.css" rel="stylesheet" />
+    <!-- Your styles should be called here -->
+    <link href="style.css" rel="stylesheet" />
 
-        <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-        <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-        <!--[if lt IE 9]>
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
       	  <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
       	  <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
       	<![endif]-->
-    </head>
+  </head>
 
-    <body>
-        <!-- YOUR CONTENT GOES HERE -->
-        <div class="container">
-          <h1>Cause of Death by Borough</h1>
-                      <p>Use the dropdown to explore your borough</p>
-                      <div>
-                          <select class="filter">
-                              <option value="item">Filter...</option>
+  <body>
+    <!-- YOUR CONTENT GOES HERE -->
+    <div class="container">
+      <h1>Cause of Death by Borough</h1>
+      <p>Use the dropdown to explore your borough</p>
+      <div>
+        <select class="filter">
+                              <option value="default">Filter...</option>
                               <option value="bronx">Bronx</option>
                               <option value="brooklyn">Brooklyn</option>
                               <option value="manhattan">Manhattan</option>
@@ -38,88 +38,388 @@
                               <option value="staten-island">Staten Island</option>
 
                           </select>
-                      </div>
-                      <!-- closes the div for the filter -->
+      </div>
+      <!-- closes the div for the filter -->
+
+      <!--default values this shows all diseases when the window opens-->
+      <div class="item default active">
+        <div class="heart disease">
+          <img src="images/heart disease.jpg">
+          <h3>Heart Disease</h3>
+        </div>
+
+        <div class="cancer disease">
+          <img src="images/cancer.jpg">
+          <h3>Cancer</h3>
+        </div>
+
+        <div class="unintentional injury disease">
+          <img src="images/unintentional injury.jpg">
+          <h3>Unintentional injury</h3>
+        </div>
+
+        <div class="pneumonia and Influenza disease">
+          <img src="images/pneumonia.jpg">
+          <h3>Pneumonia</h3>
+        </div>
+
+        <div class="CLDR disease">
+          <img src="images/cldr.gif">
+          <h3>CLDR</h3>
+        </div>
+
+        <div class="Diabetes disease">
+          <img src="images/diabetes.jpg">
+          <h3>Diabetes</h3>
+        </div>
+        <div class="Stroke disease">
+          <img src="images/stroke.jpg">
+          <h3>Stroke</h3>
+        </div>
+      </div>
+
+      <!-- //data for bronx starts here// -->
+      <div class="item  bronx">
+        <div class="heart disease">
+          <div class="front"> <img src="images/heart disease.jpg">
+            <h3>Heart Disease</h3>
+          </div>
+          <div class="data">
+            <p> Total of Deaths: 2,703 </p>
+
+          </div>
+        </div>
+
+        <div class="cancer disease">
+          <div class="front">
+            <img src="images/cancer.jpg">
+            <h3>Cancer</h3>
+          </div>
+          <div class="data">
+            <p> Total of Deaths:2,055 </p>
+          </div>
+        </div>
+
+        <div class="unintentional injury disease">
+          <div class="front">
+            <img src="images/unintentional injury.jpg">
+            <h3>Unintentional injury</h3>
+          </div>
+          <div class="data">
+            <p> Total of Deaths: 395</p>
+          </div>
+        </div>
+
+        <div class="pneumonia and Influenza disease">
+          <div class="front">
+            <img src="images/pneumonia.jpg">
+            <h3>Pneumonia</h3>
+          </div>
+          <div class="data">
+            <p> Total of Deaths: 390</p>
+
+          </div>
+        </div>
+
+        <div class="CLDR disease">
+          <div class="front">
+            <img src="images/cldr.gif">
+            <h3>CLDR</h3>
+          </div>
+          <div class="data">
+            <p> Total of Deaths: 367 </p>
+
+          </div>
+        </div>
+
+      </div>
+      <!-- data for bronx ends here -->
+
+      <!-- data for brooklyn starts here -->
+      <div class="item  brooklyn">
+        <div class="heart disease">
+          <div class="front">
+            <img src="images/heart disease.jpg">
+            <h3>Heart Disease</h3>
+          </div>
+          <div class="data">
+            <p> Total of Deaths: 5,349 </p>
+          </div>
+        </div>
+
+        <div class="cancer disease">
+          <div class="front">
+            <img src="images/cancer.jpg">
+            <h3>Cancer</h3>
+          </div>
+          <div class="data">
+            <p> Total of Deaths: 3,699</p>
+
+          </div>
+        </div>
+
+        <div class="pneumonia and Influenza disease">
+          <div class="front">
+            <img src="images/pneumonia.jpg">
+            <h3>Pneumonia</h3>
+          </div>
+          <div class="data">
+            <p> Total of Deaths: 697 </p>
+
+          </div>
+        </div>
+
+        <div class="diabetes disease">
+          <div class="front">
+            <img src="images/diabetes.jpg">
+            <h3>Diabetes</h3>
+          </div>
+          <div class="data">
+            <p> Total of Deaths: 615</p>
+
+          </div>
+        </div>
+
+        <div class="unintentional injury disease">
+          <div class="front">
+            <img src="images/unintentional injury.jpg">
+            <h3>Unintentional injury</h3>
+          </div>
+          <div class="data">
+            <p> Total of Deaths: 579</p>
+          </div>
+        </div>
+      </div>
+      <!-- data for brooklyn ends here -->
+
+      <!-- data for manhattan starts here -->
+
+      <div class="item  manhattan">
+        <div class="heart disease">
+          <div class="front">
+            <img src="images/heart disease.jpg">
+            <h3>Heart Disease</h3>
+          </div>
+          <div class="data">
+            <p> Total of Deaths: 2,838 </p>
+          </div>
+        </div>
+
+        <div class="cancer disease">
+          <div class="front">
+            <img src="images/cancer.jpg">
+            <h3>Cancer</h3>
+          </div>
+          <div class="data">
+            <p> Total of Deaths: 2,581</p>
+
+          </div>
+        </div>
+
+        <div class="stroke disease">
+          <div class="front">
+            <img src="images/stroke.jpg">
+            <h3>Stroke</h3>
+          </div>
+          <div class="data">
+            <p> Total of Deaths: 392 </p>
+
+          </div>
+        </div>
+
+        <div class="CLRD disease">
+          <div class="front">
+            <img src="images/cldr.gif">
+            <h3>CLRD</h3>
+          </div>
+          <div class="data">
+            <p> Total of Deaths: 352</p>
+
+          </div>
+        </div>
+
+        <div class="unintentional injury disease">
+          <div class="front">
+            <img src="images/unintentional injury.jpg">
+            <h3>Unintentional injury</h3>
+          </div>
+          <div class="data">
+            <p> Total of Deaths: 319 </p>
+
+          </div>
+        </div>
+      </div>
+      <!-- data for manhattan ends here -->
+
+      <!-- data for queens starts here -->
+      <div class="item  queens">
+        <div class="heart disease">
+          <div class="front">
+            <img src="images/heart disease.jpg">
+            <h3>Heart Disease</h3>
+          </div>
+          <div class="data">
+            <p> Total of Deaths: 4,954 </p>
+          </div>
+        </div>
+
+        <div class="cancer disease">
+          <div class="front">
+            <img src="images/cancer.jpg">
+            <h3>Cancer</h3>
+          </div>
+          <div class="data">
+            <p> Total of Deaths: 3,402</p>
+
+          </div>
+        </div>
+
+        <div class="stroke disease">
+          <div class="front">
+            <img src="images/stroke.jpg">
+            <h3>Stroke</h3>
+          </div>
+          <div class="data">
+            <p> Total of Deaths: 586</p>
+
+          </div>
+        </div>
+
+        <div class="pneumonia and Influenza disease">
+          <div class="front">
+            <img src="images/pneumonia.jpg">
+            <h3>Pneumonia</h3>
+          </div>
+          <div class="data">
+            <p> Total of Deaths: 563 </p>
+
+          </div>
+        </div>
+
+        <div class="unintentional injury disease">
+          <div class="front">
+            <img src="images/unintentional injury.jpg">
+            <h3>Unintentional injury</h3>
+          </div>
+          <div class="data">
+            <p> Total of Deaths: 495 </p>
+
+          </div>
+        </div>
+      </div>
+
+      <!-- data for queens ends here -->
+
+      <!-- data for staten island starts here -->
+
+      <div class="item  staten-island">
+        <div class="heart disease">
+          <div class="front">
+            <img src="images/heart disease.jpg">
+            <h3>Heart Disease</h3>
+          </div>
+          <div class="data">
+            <p> Total of Deaths: 1,368 </p>
+
+          </div>
+        </div>
+
+        <div class="cancer disease">
+          <div class="front">
+            <img src="images/cancer.jpg">
+            <h3>Cancer</h3>
+          </div>
+          <div class="data">
+            <p> Total of Deaths: 881 </p>
+
+          </div>
+        </div>
+
+        <div class="unintentional injury disease">
+          <div class="front">
+            <img src="images/unintentional injury.jpg">
+            <h3>Unintentional injury</h3>
+          </div>
+          <div class="data">
+            <p> Total of Deaths: 164 </p>
+
+          </div>
+        </div>
+
+        <div class="pneumonia and Influenza disease">
+          <div class="front">
+            <img src="images/pneumonia.jpg">
+            <h3>Pneumonia</h3>
+          </div>
+          <div class="data">
+            <p> Total of Deaths:145 </p>
+
+          </div>
+        </div>
 
 
-                      <div class="item active bronx brooklyn manhattan queens staten-island">
-                                      <img src="images/cancer.jpg">
-                                      <h3>Cancer</h3>
-                              </div>
+        <div class="CLDR disease">
+          <div class="front">
+            <img src="images/cldr.gif">
+            <h3>CLDR</h3>
+          </div>
+          <div class="data">
+            <p> Total of Deaths: 138 </p>
 
-                              <!-- <div class ="item active bronx">
-                                  Cancer: 2,055
-                              </div>
+          </div>
+        </div>
+        <!-- data for staten-island ends here -->
 
-                              <div class = "item active bronx">
-                                  <p> Deaths in Total: 9,447</p>
-                                </div> -->
+      </div>
 
-                      <div class="item active bronx brooklyn manhattan queens staten-island">
-                                      <img src="images/heart disease.jpg">
-                                      <h3>Heart Disease</h3>
-                                  </div>
 
-                                <!-- <div class="item active bronx">
-                                      <p> Heart Disease: 2,703</p>
-                                      <div> -->
+      <!-- <div class="item active bronx brooklyn manhattan queens staten-island">
+              <img src="images/heart disease.jpg">
+              <h3>Heart Disease</h3>
+            </div>
 
-                      <div class="item active bronx brooklyn queens staten-island">
-                                    <img src="images/pneumonia.jpg">
-                                    <h3>Pneumonia</h3>
-                                  </div>
 
-                                  <!-- <div class="item active bronx">
-                                    <p> Pneumonia/Influenza: 390 </p>
-                                  </div> -->
 
-                      <div class="item active bronx manhattan staten-island">
-                                    <img src="images/cldr.gif">
-                                    <h3>Chronice Lower Respiratory Diseases</h3>
-                                  </div>
+            <div class="item active bronx brooklyn queens staten-island">
+              <img src="images/pneumonia.jpg">
+              <h3>Pneumonia</h3>
+            </div>
 
-                                  <!-- <div class="item active bronx">
-                                    <p> CLRD: 367 </p>
-                                  </div> -->
 
-                      <div class="item active bronx brooklyn manhattan queens staten-island">
-                                    <img src="images/unintentional injury.jpg">
-                                    <h3>Unintentional Injury</h3>
-                                  </div>
+            <div class="item active bronx manhattan staten-island">
+              <img src="images/cldr.gif">
+              <h3>Chronice Lower Respiratory Diseases</h3>
+            </div>
 
-                                  <!-- <div class= "item active bronx">
-                                      <p> Unintentional Injury: 395</p>
-                                    </div> -->
 
-                    <div class="item active brooklyn">
-                                  <img src="images/diabetes.jpg">
-                                  <h3>Diabetes</h3>
-                                 </div>
 
-                   <div class="item active manhattan queens">
-                                  <img src="images/stroke.jpg">
-                                  <h3>Stroke</h3>
-                                </div>
-<!--
-              <div class="item active queens">
-                      <img src="images/cardinal.jpg" />
-                    <h3>Queens</h3>
-                  </div> -->
+            <div class="item active bronx brooklyn manhattan queens staten-island">
+              <img src="images/unintentional injury.jpg">
+              <h3>Unintentional Injury</h3>
+            </div>
 
-                  <!-- <div class="item active staten-island">
-                          <img src="images/cardinal.jpg" />
-                        <h3>Staten Island</h3>
-                      </div> -->
+
+
+            <div class="item active brooklyn">
+              <img src="images/diabetes.jpg">
+              <h3>Diabetes</h3>
+            </div>
+
+            <div class="item active manhattan queens">
+              <img src="images/stroke.jpg">
+              <h3>Stroke</h3>
+            </div> -->
 
 
 
 
 
-</div>
-                                        <!-- the jQuery library. You need this to be able to use jQuery ($) -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    </div>
+    <!-- the jQuery library. You need this to be able to use jQuery ($) -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 
-                                        <!-- javascript should be called here -->
-<script src="main.js"></script>
-</body>
+    <!-- javascript should be called here -->
+    <script src="main.js"></script>
+  </body>
+
 </html>
