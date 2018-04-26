@@ -21,14 +21,14 @@ html, body {
   font-size: 16px;
 }
 
-.container {
+.container .disease {
   max-width: 980px;
   margin: 0 auto;
   padding: 5px;
 }
 
-.disease .front, .disease .data {
-  position: absolute;
+.disease .front, .data {
+  position: relative;
   top: 0;
   left: 0;
   width: 100%;
@@ -37,10 +37,14 @@ html, body {
   backface-visibility: hidden;
   text-align: center;
   /* padding: 20px;
-    margin: 10px; */
   /* border-style: solid; */
   box-sizing: border-box;
   /* background-color: #e8eaed; */
+}
+
+.disease .main {
+  position: relative;
+  padding-bottom: 50%;
 }
 
 .disease .data {
@@ -112,6 +116,7 @@ select {
   .disease {
     width: 33%;
     min-height: 310px;
+    /* padding-bottom: 0; */
   }
   select {
     width: 33%;
