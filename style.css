@@ -39,15 +39,15 @@ html, body {
   margin: 0 auto;
   min-height: 250px;
   padding: 5px;
-  /* border-style: solid; */
   box-sizing: border-box;
-  /* background-color: grey; */
 }
 
 .disease .main {
   position: relative;
   padding-bottom: 50%;
 }
+
+/* code for the flipping starts here */
 
 .disease .data {
   transform: rotateY(-180deg);
@@ -65,6 +65,8 @@ html, body {
   transform: rotateY(0deg);
 }
 
+/* code for the flipping ends here */
+
 .disease {
   float: left;
   width: 50%;
@@ -72,8 +74,6 @@ html, body {
 }
 
 .item {
-  /* width: 50%; */
-  /* float: left; */
   min-height: 185px;
   text-align: center;
   display: none;
@@ -115,6 +115,13 @@ select {
 
 @media(min-width: 681px) {
   /* Any adjustments for tablets and larger go here. Note these styles will be applied to anything 681px or larger -- so tablet AND desktop */
+  .container .disease .item {
+    width: 100%;
+    max-width: 50%;
+  }
+  body {
+    width: 70%;
+  }
 }
 
 @media(min-width: 729px) {
