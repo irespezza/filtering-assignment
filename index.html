@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
+  <head>
     <meta charset="utf-8">
     <!-- set the character set -->
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -21,50 +21,51 @@
       	  <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
       	  <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
       	<![endif]-->
-</head>
+  </head>
 
-<body>
+  <body>
     <!-- YOUR CONTENT GOES HERE -->
     <div class="container">
-        <h1>Cause of Death by Borough</h1>
-        <div class="byline">By Irene Spezzamonte, Aliyah Veal, and Virginia Jeffries
-        </div>
-        <!-- closes byline  -->
+      <h1>Your neighborhood can affect how you die </h1>
+      <h2>Find out why</h2>
+      <div class="byline">By Irene Spezzamonte, Aliyah Veal, and Virginia Jeffries
+      </div>
+      <!-- closes byline  -->
 
-        <div class="hold-image">
-            <img src="images/hospsign.png">
-        </div>
-        <!-- closes hold-image -->
+      <div class="hold-image">
+        <img src="images/hospsign.png">
+      </div>
+      <!-- closes hold-image -->
 
-        <div class="article"> Although Terry Guarino followed a healthy lifestyle, inclinding long-distance running and a healthy diet, the extensive hours behind the wheel may have taken a toll on her heart.
-<p>
-                At the young age of 56, just 24 hours after a 5-mile run, Guarino was in an ambulance suffering cardiac arrest.
-            </p>
-            <p>
-                "I was in bed chatting with my husband and I started feeling like something was off," said Guarino, now 58.
-            </p>
-            <p>
-                Heart disease is the leading cause of death in the U.S. and in all five New York City boroughs, according to the latest data collected by the New York State Department of Health.
-            </p>
-            <p>
-                Where you live specifically might have an impact on whether you survive, according to David Satcher M.D., former surgeon general under Presidents Bill Clinton and George W. Bush, and pioneer in the field of social medicine.
-            </p>
-            <p>
-                "Where you live has a huge impact on your lifespan," said Dr. Satcher. "It determines what nutrition is available to you and even if where you live is a safe place to be physically active."
-            </p>
+      <div class="article"> Although Terry Guarino followed a healthy lifestyle, inclinding long-distance running and a healthy diet, the extensive hours behind the wheel may have taken a toll on her heart.
+        <p>
+          At the young age of 56, just 24 hours after a 5-mile run, Guarino was in an ambulance suffering cardiac arrest.
+        </p>
+        <p>
+          "I was in bed chatting with my husband and I started feeling like something was off," said Guarino, now 58.
+        </p>
+        <p>
+          Heart disease is the leading cause of death in the U.S. and in all five New York City boroughs, according to the latest data collected by the New York State Department of Health.
+        </p>
+        <p>
+          Where you live specifically might have an impact on whether you survive, according to David Satcher M.D., former surgeon general under Presidents Bill Clinton and George W. Bush, and pioneer in the field of social medicine.
+        </p>
+        <p>
+          "Where you live has a huge impact on your lifespan," said Dr. Satcher. "It determines what nutrition is available to you and even if where you live is a safe place to be physically active."
+        </p>
 
-            <p>
-                Researchers say that many health disparities are embedded within each borough and even within the different neighborhoods. That is why it is important to look at patients’ locations to determine their health risks.
-            </p>
+        <p>
+          Researchers say that many health disparities are embedded within each borough and even within the different neighborhoods. That is why it is important to look at patients’ locations to determine their health risks.
+        </p>
 
-
-
-
+      </div>
 
 
-  <h3>Use the dropdown menu to explore your borough</h3>
-              <!-- this is the div for the menu -->
-                <select class="filter">
+
+      <div class="filter-container">
+        <h3>Use the dropdown menu to explore your borough</h3>
+        <!-- this is the div for the menu -->
+        <select class="filter">
                     <option value="default">Pick your Borough</option>
                     <option value="bronx">Bronx</option>
                     <option value="brooklyn">Brooklyn</option>
@@ -72,357 +73,350 @@
                     <option value="queens">Queens</option>
                     <option value="staten-island">Staten Island</option>
                 </select>
+
+        <!-- closes the div for the filter -->
+
+
+
+        <!--default values this shows all diseases when the window opens-->
+
+        <!-- code for initial page starts here -->
+
+        <div class="item default active">
+
+          <div class="heart disease">
+            <img src="images/heart disease.jpg">
+            <h3>Heart Disease</h3>
+          </div>
+          <!-- closes heart disease -->
+
+          <div class="unintentional injury disease">
+            <img src="images/unintentional injury.jpg">
+            <h3>Unintentional Injury</h3>
+          </div>
+          <!-- closes uninj -->
+
+          <div class="cancer disease">
+            <img src="images/cancer.jpg">
+            <h3>Cancer</h3>
+          </div>
+          <!-- closes cancer -->
+
+
+          <div class="pneumonia and Influenza disease">
+            <img src="images/pneumonia.jpg">
+            <h3>Pneumonia</h3>
+          </div>
+          <!-- closes pneumonia -->
+
+          <div class="CLRD disease">
+            <img src="images/clrd.jpg">
+            <h3>Chronic Lower Respiratory Disease</h3>
+          </div>
+          <!-- closes clrd -->
+
+          <div class="Diabetes disease">
+            <img src="images/diabetes.jpg">
+            <h3>Diabetes</h3>
+          </div>
+          <!-- closes diabetes -->
+
+          <div class="Stroke disease">
+            <img src="images/stroke.jpg">
+            <h3>Stroke</h3>
+          </div>
+          <!-- closes stroke -->
+        </div>
+        <!-- closes item default div -->
+
+
+        <!-- //data for bronx starts here// -->
+        <div class="item  bronx">
+          <div class="heart disease">
+            <div class="front"> <img src="images/heart disease.jpg">
+              <h3>1) Heart Disease</h3>
             </div>
-            <!-- closes the div for the filter -->
+            <!-- closes front -->
 
 
 
-            <!--default values this shows all diseases when the window opens-->
-
-            <!-- code for initial page starts here -->
-
-            <div class="item default active">
-
-                <div class="heart disease">
-                    <img src="images/heart disease.jpg">
-                    <h3>Heart Disease</h3>
-                </div>
-                <!-- closes heart disease -->
-
-                <div class="unintentional injury disease">
-                    <img src="images/unintentional injury.jpg">
-                    <h3>Unintentional Injury</h3>
-                </div>
-                <!-- closes uninj -->
-
-                <div class="cancer disease">
-                    <img src="images/cancer.jpg">
-                    <h3>Cancer</h3>
-                </div>
-                <!-- closes cancer -->
-
-
-                <div class="pneumonia and Influenza disease">
-                    <img src="images/pneumonia.jpg">
-                    <h3>Pneumonia</h3>
-                </div>
-                <!-- closes pneumonia -->
-
-                <div class="CLRD disease">
-                    <img src="images/clrd.jpg">
-                    <h3>Chronic Lower Respiratory Disease</h3>
-                </div>
-                <!-- closes clrd -->
-
-                <div class="Diabetes disease">
-                    <img src="images/diabetes.jpg">
-                    <h3>Diabetes</h3>
-                </div>
-<!-- closes diabetes -->
-
-                <div class="Stroke disease">
-                    <img src="images/stroke.jpg">
-                    <h3>Stroke</h3>
-                </div>
-                <!-- closes stroke -->
+            <div class="data">
+              <p> Total Number of Deaths: 2,703 </p>
+              <p> Rate: 184 per 100,000 </p>
             </div>
-<!-- closes item default div -->
+            <!-- closes data -->
 
+          </div>
+          <!-- closes heart disease -->
 
-
-
-
-
-</div>
-<!-- closes article  -->
-
-
-
-
-            <!-- //data for bronx starts here// -->
-            <div class="item  bronx">
-                <div class="heart disease">
-                    <div class="front"> <img src="images/heart disease.jpg">
-                        <h3>1) Heart Disease</h3>
-                    </div>
-<!-- closes front -->
-
-
-
-                    <div class="data">
-                        <p> Total Number of Deaths: 2,703 </p>
-                        <p> Rate: 184 per 100,000 </p>
-                    </div>
-<!-- closes data -->
-
-                </div>
-                <!-- closes heart disease -->
-
-                <div class="cancer disease">
-                    <div class="front">
-                        <img src="images/cancer.jpg">
-                        <h3>2) Cancer</h3>
-                    </div>
-
-                    <div class="data">
-                        <p> Total Number of Deaths: 2,055 </p>
-                        <p> 140 per 100,000 </p>
-                    </div>
-                </div>
-
-                <div class="unintentional injury disease">
-                    <div class="front">
-                        <img src="images/unintentional injury.jpg">
-                        <h3>3) Unintentional injury</h3>
-                    </div>
-                    <div class="data">
-                        <p> Total Number of Deaths: 395</p>
-                        <p> Rate: 27 per 100,000 </p>
-                    </div>
-                </div>
-
-                <div class="pneumonia and Influenza disease">
-                    <div class="front">
-                        <img src="images/pneumonia.jpg">
-                        <h3>4) Pneumonia</h3>
-                    </div>
-                    <div class="data">
-                        <p> Total Number of Deaths: 390</p>
-                        <p> Rate: 27 per 100,000 </p>
-                    </div>
-
-                </div>
-
-            </div>
-            <!-- data for bronx ends here -->
-
-            <!-- data for brooklyn starts here -->
-            <div class="item  brooklyn">
-                <div class="heart disease">
-                    <div class="front">
-                        <img src="images/heart disease.jpg">
-                        <h3>1) Heart Disease</h3>
-                    </div>
-                    <div class="data">
-                        <p> Total Number of Deaths: 5,349 </p>
-                        <p> Rate: 202 per 100,000</p>
-
-                    </div>
-                </div>
-
-                <div class="cancer disease">
-                    <div class="front">
-                        <img src="images/cancer.jpg">
-                        <h3>2) Cancer</h3>
-                    </div>
-                    <div class="data">
-                        <p> Total Number of Deaths: 3,699</p>
-                        <p> Rate: 140 per 100,000 </p>
-
-                    </div>
-                </div>
-
-                <div class="pneumonia and Influenza disease">
-                    <div class="front">
-                        <img src="images/pneumonia.jpg">
-                        <h3>3) Pneumonia</h3>
-                    </div>
-                    <div class="data">
-                        <p> Total Number of Deaths: 697 </p>
-                        <p> Rate: 26 per 100,000 </p>
-
-                    </div>
-                </div>
-
-                <div class="diabetes disease">
-                    <div class="front">
-                        <img src="images/diabetes.jpg">
-                        <h3>4) Diabetes</h3>
-                    </div>
-                    <div class="data">
-                        <p> Total Number of Deaths: 615</p>
-                        <p> Rate: 23 per 100,000 </p>
-
-                    </div>
-                </div>
-
-            </div>
-            <!-- data for brooklyn ends here -->
-
-            <!-- data for manhattan starts here -->
-            <div class="item  manhattan">
-                <div class="heart disease">
-                    <div class="front">
-                        <img src="images/heart disease.jpg">
-                        <h3>1) Heart Disease</h3>
-                    </div>
-                    <div class="data">
-                        <p> Total Number of Deaths: 2,838 </p>
-                        <p> Rate: 170 per 100,000 </p>
-                    </div>
-                </div>
-
-                <div class="cancer disease">
-                    <div class="front">
-                        <img src="images/cancer.jpg">
-                        <h3>2) Cancer</h3>
-                    </div>
-                    <div class="data">
-                        <p> Total Number of Deaths: 2,581</p>
-                        <p> Rate: 155 per 100,000 </p>
-
-                    </div>
-                </div>
-
-                <div class="stroke disease">
-                    <div class="front">
-                        <img src="images/stroke.jpg">
-                        <h3>3) Stroke</h3>
-                    </div>
-                    <div class="data">
-                        <p> Total Number of Deaths: 392 </p>
-                        <p> Rate: 23 per 100,000 </p>
-
-                    </div>
-                </div>
-
-                <div class=" disease">
-                    <div class="front">
-                        <img src="images/clrd.jpg">
-                        <h3>4) Chronic Lower Respiratory Disease </h3>
-                    </div>
-                    <div class="data">
-                        <p> Total Number of Deaths: 352</p>
-                        <p> Rate: 21 per 100,000 </p>
-
-                    </div>
-                </div>
-
-            </div>
-            <!-- data for manhattan ends here -->
-
-            <!-- data for queens starts here -->
-            <div class="item queens">
-                <div class="heart disease">
-                    <div class="front">
-                        <img src="images/heart disease.jpg">
-                        <h3>1) Heart Disease</h3>
-                    </div>
-                    <div class="data">
-                        <p> Total Number of Deaths: 4,954 </p>
-                        <p> Rate: 210 per 100,000 </p>
-
-                    </div>
-                </div>
-
-                <div class="cancer disease">
-                    <div class="front">
-                        <img src="images/cancer.jpg">
-                        <h3>2) Cancer</h3>
-                    </div>
-                    <div class="data">
-                        <p> Total Number of Deaths: 3,402</p>
-                        <p> Rate: 144 per 100,000 </p>
-
-                    </div>
-                </div>
-
-                <div class="stroke disease">
-                    <div class="front">
-                        <img src="images/stroke.jpg">
-                        <h3>3) Stroke</h3>
-                    </div>
-                    <div class="data">
-                        <p> Total Number of Deaths: 586</p>
-                        <p> Rate: 25 per 100,000 </p>
-
-                    </div>
-                </div>
-
-                <div class="pneumonia and Influenza disease">
-                    <div class="front">
-                        <img src="images/pneumonia.jpg">
-                        <h3>4) Pneumonia</h3>
-                    </div>
-                    <div class="data">
-                        <p> Total Number of Deaths: 563 </p>
-                        <p> Rate: 25 per 100,000 </p>
-
-                    </div>
-                </div>
-
+          <div class="cancer disease">
+            <div class="front">
+              <img src="images/cancer.jpg">
+              <h3>2) Cancer</h3>
             </div>
 
-            <!-- data for queens ends here -->
+            <div class="data">
+              <p> Total Number of Deaths: 2,055 </p>
+              <p> 140 per 100,000 </p>
+            </div>
+          </div>
 
-            <!-- data for staten island starts here -->
+          <div class="unintentional injury disease">
+            <div class="front">
+              <img src="images/unintentional injury.jpg">
+              <h3>3) Unintentional injury</h3>
+            </div>
+            <div class="data">
+              <p> Total Number of Deaths: 395</p>
+              <p> Rate: 27 per 100,000 </p>
+            </div>
+          </div>
 
-            <div class="item  staten-island">
-                <div class="heart disease">
-                    <div class="front">
-                        <img src="images/heart disease.jpg">
-                        <h3>1) Heart Disease</h3>
-                    </div>
-                    <div class="data">
-                        <p> Total Number of Deaths: 1,368 </p>
-                        <p> Rate: 285 per 100,000 </p>
+          <div class="pneumonia and Influenza disease">
+            <div class="front">
+              <img src="images/pneumonia.jpg">
+              <h3>4) Pneumonia</h3>
+            </div>
+            <div class="data">
+              <p> Total Number of Deaths: 390</p>
+              <p> Rate: 27 per 100,000 </p>
+            </div>
 
-                    </div>
-                </div>
+          </div>
 
-                <div class="cancer disease">
-                    <div class="front">
-                        <img src="images/cancer.jpg">
-                        <h3>2) Cancer</h3>
-                    </div>
-                    <div class="data">
-                        <p> Total Number of Deaths: 881 </p>
-                        <p> Rate: 183 per 100,000 </p>
+        </div>
+        <!-- data for bronx ends here -->
 
-                    </div>
-                </div>
-
-                <div class="unintentional injury disease">
-                    <div class="front">
-                        <img src="images/unintentional injury.jpg">
-                        <h3>3) Unintentional injury</h3>
-                    </div>
-                    <div class="data">
-                        <p> Total Number of Deaths: 164 </p>
-                        <p> Rate: 34 per 100,000 </p>
-
-                    </div>
-                </div>
-
-                <div class="pneumonia and Influenza disease">
-                    <div class="front">
-                        <img src="images/pneumonia.jpg">
-                        <h3>4) Pneumonia</h3>
-                    </div>
-                    <div class="data">
-                        <p> Total Number of Deaths:145 </p>
-                        <p> Rate: 30 per 100,000 </p>
-                    </div>
-
-                </div>
+        <!-- data for brooklyn starts here -->
+        <div class="item  brooklyn">
+          <div class="heart disease">
+            <div class="front">
+              <img src="images/heart disease.jpg">
+              <h3>1) Heart Disease</h3>
+            </div>
+            <div class="data">
+              <p> Total Number of Deaths: 5,349 </p>
+              <p> Rate: 202 per 100,000</p>
 
             </div>
-            <!-- data for staten-island ends here -->
-</div>
+          </div>
 
-<p>“We all tend to be more responsive to the environment around us than we would like to think,”  said Dr. Andrew Goodman, physician, professor at NYU, who has worked for the City Health Department for over 30 years.
-</p>
-<p>
-“If we’re in a neighborhood with heavy duty promotion of sugary drinks and it’s readily available people will tend to consume more of those than if you’re in an environment that has fewer than that.”
-</p>
-<p>
-Almost two years after her cardiac arrest, Guarino started running again, although she has a defibrillator implant inside her heart.
-</p>
-<p>
-“I am back physically but not psychologically,” she said. “I hope this doesn’t happen again.”
-</p>
+          <div class="cancer disease">
+            <div class="front">
+              <img src="images/cancer.jpg">
+              <h3>2) Cancer</h3>
+            </div>
+            <div class="data">
+              <p> Total Number of Deaths: 3,699</p>
+              <p> Rate: 140 per 100,000 </p>
+
+            </div>
+          </div>
+
+          <div class="pneumonia and Influenza disease">
+            <div class="front">
+              <img src="images/pneumonia.jpg">
+              <h3>3) Pneumonia</h3>
+            </div>
+            <div class="data">
+              <p> Total Number of Deaths: 697 </p>
+              <p> Rate: 26 per 100,000 </p>
+
+            </div>
+          </div>
+
+          <div class="diabetes disease">
+            <div class="front">
+              <img src="images/diabetes.jpg">
+              <h3>4) Diabetes</h3>
+            </div>
+            <div class="data">
+              <p> Total Number of Deaths: 615</p>
+              <p> Rate: 23 per 100,000 </p>
+
+            </div>
+          </div>
+
+        </div>
+        <!-- data for brooklyn ends here -->
+
+        <!-- data for manhattan starts here -->
+        <div class="item  manhattan">
+          <div class="heart disease">
+            <div class="front">
+              <img src="images/heart disease.jpg">
+              <h3>1) Heart Disease</h3>
+            </div>
+            <div class="data">
+              <p> Total Number of Deaths: 2,838 </p>
+              <p> Rate: 170 per 100,000 </p>
+            </div>
+          </div>
+
+          <div class="cancer disease">
+            <div class="front">
+              <img src="images/cancer.jpg">
+              <h3>2) Cancer</h3>
+            </div>
+            <div class="data">
+              <p> Total Number of Deaths: 2,581</p>
+              <p> Rate: 155 per 100,000 </p>
+
+            </div>
+          </div>
+
+          <div class="stroke disease">
+            <div class="front">
+              <img src="images/stroke.jpg">
+              <h3>3) Stroke</h3>
+            </div>
+            <div class="data">
+              <p> Total Number of Deaths: 392 </p>
+              <p> Rate: 23 per 100,000 </p>
+
+            </div>
+          </div>
+
+          <div class=" disease">
+            <div class="front">
+              <img src="images/clrd.jpg">
+              <h3>4) Chronic Lower Respiratory Disease </h3>
+            </div>
+            <div class="data">
+              <p> Total Number of Deaths: 352</p>
+              <p> Rate: 21 per 100,000 </p>
+
+            </div>
+          </div>
+
+        </div>
+        <!-- data for manhattan ends here -->
+
+        <!-- data for queens starts here -->
+        <div class="item queens">
+          <div class="heart disease">
+            <div class="front">
+              <img src="images/heart disease.jpg">
+              <h3>1) Heart Disease</h3>
+            </div>
+            <div class="data">
+              <p> Total Number of Deaths: 4,954 </p>
+              <p> Rate: 210 per 100,000 </p>
+
+            </div>
+          </div>
+
+          <div class="cancer disease">
+            <div class="front">
+              <img src="images/cancer.jpg">
+              <h3>2) Cancer</h3>
+            </div>
+            <div class="data">
+              <p> Total Number of Deaths: 3,402</p>
+              <p> Rate: 144 per 100,000 </p>
+
+            </div>
+          </div>
+
+          <div class="stroke disease">
+            <div class="front">
+              <img src="images/stroke.jpg">
+              <h3>3) Stroke</h3>
+            </div>
+            <div class="data">
+              <p> Total Number of Deaths: 586</p>
+              <p> Rate: 25 per 100,000 </p>
+
+            </div>
+          </div>
+
+          <div class="pneumonia and Influenza disease">
+            <div class="front">
+              <img src="images/pneumonia.jpg">
+              <h3>4) Pneumonia</h3>
+            </div>
+            <div class="data">
+              <p> Total Number of Deaths: 563 </p>
+              <p> Rate: 25 per 100,000 </p>
+
+            </div>
+          </div>
+
+        </div>
+
+        <!-- data for queens ends here -->
+
+        <!-- data for staten island starts here -->
+
+        <div class="item  staten-island">
+          <div class="heart disease">
+            <div class="front">
+              <img src="images/heart disease.jpg">
+              <h3>1) Heart Disease</h3>
+            </div>
+            <div class="data">
+              <p> Total Number of Deaths: 1,368 </p>
+              <p> Rate: 285 per 100,000 </p>
+
+            </div>
+          </div>
+
+          <div class="cancer disease">
+            <div class="front">
+              <img src="images/cancer.jpg">
+              <h3>2) Cancer</h3>
+            </div>
+            <div class="data">
+              <p> Total Number of Deaths: 881 </p>
+              <p> Rate: 183 per 100,000 </p>
+
+            </div>
+          </div>
+
+          <div class="unintentional injury disease">
+            <div class="front">
+              <img src="images/unintentional injury.jpg">
+              <h3>3) Unintentional injury</h3>
+            </div>
+            <div class="data">
+              <p> Total Number of Deaths: 164 </p>
+              <p> Rate: 34 per 100,000 </p>
+
+            </div>
+          </div>
+
+          <div class="pneumonia and Influenza disease">
+            <div class="front">
+              <img src="images/pneumonia.jpg">
+              <h3>4) Pneumonia</h3>
+            </div>
+            <div class="data">
+              <p> Total Number of Deaths:145 </p>
+              <p> Rate: 30 per 100,000 </p>
+            </div>
+
+          </div>
+
+        </div>
+        <!-- data for staten-island ends here -->
+      </div>
+
+      <div class="article">
+        <p>“We all tend to be more responsive to the environment around us than we would like to think,” said Dr. Andrew Goodman, physician, professor at NYU, who has worked for the City Health Department for over 30 years.
+        </p>
+        <p>
+          “If we’re in a neighborhood with heavy duty promotion of sugary drinks and it’s readily available people will tend to consume more of those than if you’re in an environment that has fewer than that.”
+        </p>
+        <p>
+          Almost two years after her cardiac arrest, Guarino started running again, although she has a defibrillator implant inside her heart.
+        </p>
+        <p>
+          “I am back physically but not psychologically,” she said. “I hope this doesn’t happen again.”
+        </p>
+      </div>
 
     </div>
+
     <!-- closes container div -->
 
 
@@ -431,6 +425,6 @@ Almost two years after her cardiac arrest, Guarino started running again, althou
 
     <!-- javascript should be called here -->
     <script src="main.js"></script>
-</body>
+  </body>
 
 </html>
