@@ -113,6 +113,9 @@ You will find this is far easier than the opposite task of using CSS to cram you
 select {
   display: block;
   width: 100%;
+  background: white;
+  border: 2px solid black;
+  padding: 5px;
 }
 
 * {
@@ -137,7 +140,7 @@ h1, h2 {
 @media(min-width: 681px) {
   /* Any adjustments for tablets and larger go here. Note these styles will be applied to anything 681px or larger -- so tablet AND desktop */
   .filter {
-    max-width: 82%;
+    max-width: 95%;
   }
 }
 
